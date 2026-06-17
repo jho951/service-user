@@ -4,9 +4,9 @@ platform-security = "4.0.0"
 platform-integrations = "4.0.0"
 
 [libraries]
-platform-runtime-bom = { module = "io.github.jho951.platform:platform-runtime-bom", version.ref = "platform-integrations" }
-platform-governance-bom = { module = "io.github.jho951.platform:platform-governance-bom", version.ref = "platform-governance" }
-platform-governance-starter = { module = "io.github.jho951.platform:platform-governance-starter" }
-platform-security-bom = { module = "io.github.jho951.platform:platform-security-bom", version.ref = "platform-security" }
-platform-security-starter = { module = "io.github.jho951.platform:platform-security-starter", version.ref = "platform-security" }
-platform-security-governance-bridge = { module = "io.github.jho951.platform:platform-security-governance-bridge", version.ref = "platform-integrations" }
+platform-runtime-bom = { module = "io.github.jho951.platform.packages:platform-runtime-bom", version.ref = "platform-integrations" }
+platform-governance-bom = { module = "io.github.jho951.platform.packages:platform-governance-bom", version.ref = "platform-governance" }
+platform-governance-starter = { module = "io.github.jho951.platform.packages:platform-governance-starter" }
+platform-security-bom = { module = "io.github.jho951.platform.packages:platform-security-bom", version.ref = "platform-security" }
+platform-security-starter = { module = "io.github.jho951.platform.packages:platform-security-starter", version.ref = "platform-security" }
+platform-security-governance-bridge = { module = "io.github.jho951.platform.packages:platform-security-governance-bridge", version.ref = "platform-integrations" }

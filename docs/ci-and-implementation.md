@@ -54,9 +54,7 @@ platform package는 private package이므로 인증값이 필요합니다.
 사용 repository:
 
 - Maven Central
-- GitHub Packages: `https://maven.pkg.github.com/jho951/platform-governance`
-- GitHub Packages: `https://maven.pkg.github.com/jho951/platform-security`
-- GitHub Packages: `https://maven.pkg.github.com/jho951/platform-integrations`
+- GitHub Packages: `https://maven.pkg.github.com/jho951/platform-packages`
 
 로컬 shell:
 
